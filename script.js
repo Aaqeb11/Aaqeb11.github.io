@@ -146,7 +146,7 @@ document.getElementById("btn").addEventListener("click", () => {
           messageBox.innerHTML =
             "Speed: " + Math.floor(partialcLetters.length / 1);
         } else {
-          messageBox.innerHTML = "Speed: " + Math.floor(correctLetter / 1);
+          messageBox.innerHTML = "Speed: " + Math.floor(correctLetter + partialcLetters.length / 1);
         }
       }
       summary();
